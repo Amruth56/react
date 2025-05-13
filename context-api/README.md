@@ -55,7 +55,6 @@ This allows them to use the shared counter without directly managing it.
 
 This eliminates **prop drilling** (passing values manually down multiple levels) and ensures all artisans have easy access to the toolbox.
 
-Does this analogy help? 🚀
 
 3. we wrap counterprovider around app.jsx so that all the components inside app.jsx can access the state.
 
